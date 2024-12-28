@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "specail_blogs",
+  "info": {
+    "singularName": "specail-blog",
+    "pluralName": "specail-blogs",
+    "displayName": "specail-blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desciption": {
+      "type": "text"
+    },
+    "thumnnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "detail": {
+      "type": "blocks"
+    }
+  }
+}
